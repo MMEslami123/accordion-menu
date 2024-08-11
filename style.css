@@ -1,35 +1,35 @@
 * {
-       margin: 0px;
-       padding: 0px;
-       box-sizing: border-box;
-     }
-     button {
-       width: 100%;
-       text-align: left;
-       padding: 10px;
-       font-size: 1.3em;
-       border: none;
-       cursor: pointer;
-     }
-     button::after {
-       content: "\f107";
-       font-family: "FontAwesome";
-       float: right;
-       transition: all 1s ease;
-     }
-     .active,
-     button:hover {
-       background-color: rgb(192, 192, 192);
-     }
-     .active::after {
-       transform: rotate(180deg);
-     }
-     p {
-       padding: 0px 10px;
-       line-height: 30px;
-       font-size: 1.1em;
-       background-color: orange;
-       max-height: 0px;
-       overflow: hidden;
-       transition: max-height 1s ease;
-     }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.3em;
+  border: none;
+  cursor: pointer;
+}
+button::after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  float: right;
+  transition: all 1s ease;
+}
+.active,
+button:hover {
+  background-color: rgb(192, 192, 192);
+}
+.active::after {
+  transform: rotate(180deg);
+}
+p {
+  padding: 0px 10px;
+  line-height: 30px;
+  font-size: 1.1em;
+  background-color: orange;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
